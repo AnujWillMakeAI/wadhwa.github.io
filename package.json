@@ -1,0 +1,25 @@
+{
+  "name": "chemistry-phd-portfolio",
+  "version": "1.0.0",
+  "description": "Minimal and aesthetic academic portfolio for PhD Chemistry career featuring a Vector Flow Field Particle System background.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "academic",
+    "resume",
+    "chemistry",
+    "phd",
+    "vector-field",
+    "canvas"
+  ],
+  "author": "Dr. Deepak Wadhwa",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

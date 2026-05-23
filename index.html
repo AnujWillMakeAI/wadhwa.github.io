@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic Curriculum Vitae of Dr. Deepak Wadhwa, Assistant Professor of Chemistry at Chaudhary Ranbir Singh University (CRSU), Jind. Researcher in Synthetic Organic Chemistry.">
+  <title>Dr. Deepak Wadhwa | Academic CV</title>
+  
+  <!-- Theme Initialization Script (Prevents Theme Flash) -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Interactive Vector Flow Field Canvas Background -->
+  <canvas id="flowfield-canvas" layoutsubtree></canvas>
+
+  <main class="cv-wrapper">
+    <article class="cv-paper">
+      
+      <!-- HEADER SECTION -->
+      <header class="cv-header">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
+          <div>
+            <h1 class="cv-name">DR. DEEPAK WADHWA</h1>
+            <div class="cv-title">Assistant Professor, Department of Chemistry</div>
+            <div class="cv-institution">Chaudhary Ranbir Singh University, Jind (Haryana) - 126102, India</div>
+            <div class="cv-deputation">On Deputation from Chaudhary Bansi Lal University, Bhiwani</div>
+          </div>
+          <div style="display: flex; gap: 0.75rem; align-items: center;" class="cv-action-buttons">
+            <button id="theme-toggle" class="cv-theme-toggle-button" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+              <!-- Filled by JS -->
+            </button>
+            <button onclick="window.print()" class="cv-print-button" title="Print or Save CV as PDF" aria-label="Print CV">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+              </svg>
+              <span>Print / Save PDF</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- CONTACT INFORMATION -->
+        <div class="cv-contact-grid">
+          <div class="cv-contact-item">
+            <strong>Email:</strong> <a href="mailto:deepak_chem08@cblu.ac.in">deepak_chem08@cblu.ac.in</a>
+          </div>
+          <div class="cv-contact-item cv-links">
+            <a href="https://scholar.google.com/citations?user=HHVb5N4AAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer" class="cv-icon-link" title="Google Scholar Profile" aria-label="Google Scholar Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L1.016 7.962 12 13.924l8.36-4.56v5.82h1.624v-6.7L22.984 7.96 12 2zm0 14.286c-2.915 0-5.46-1.579-6.754-3.924H3.593c1.43 3.327 4.72 5.638 8.407 5.638 3.687 0 6.977-2.311 8.407-5.638h-1.653c-1.294 2.345-3.84 3.924-6.754 3.924z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/chem-deepak-wadhwa/" target="_blank" rel="noopener noreferrer" class="cv-icon-link" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <hr class="cv-divider">
+
+      <!-- CAREER SUMMARY -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Career Objective & Summary</h2>
+        <p class="cv-text">
+          A proactive researcher and lecturer with 15+ years of teaching experience at undergraduate and postgraduate levels. Proficient in synthetic organic chemistry, heterocyclic synthesis, and developing innovative instructional curriculum to expand learning and research opportunities.
+        </p>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- ACADEMIC QUALIFICATIONS -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Academic Qualifications</h2>
+        <table class="cv-table">
+          <thead>
+            <tr>
+              <th>Degree / Exam</th>
+              <th>Specialization</th>
+              <th>Institution / University</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Ph.D.</strong></td>
+              <td>Synthetic Organic Chemistry</td>
+              <td>Kurukshetra University, Kurukshetra, India</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td><strong>M.Phil.</strong></td>
+              <td>Synthetic Organic Chemistry</td>
+              <td>Annamalai University, Annamalai Nagar, India</td>
+              <td>2007</td>
+            </tr>
+            <tr>
+              <td><strong>M.Sc.</strong></td>
+              <td>Chemistry</td>
+              <td>Kurukshetra University, Kurukshetra, India</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td><strong>B.Ed.</strong></td>
+              <td>Education</td>
+              <td>Kurukshetra University, Kurukshetra, India</td>
+              <td>2014</td>
+            </tr>
+            <tr>
+              <td><strong>B.Sc.</strong></td>
+              <td>Science</td>
+              <td>Kurukshetra University, Kurukshetra, India</td>
+              <td>2000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- RESEARCH EXPERIENCE -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Research Experience & Projects</h2>
+        
+        <div class="cv-subsection">
+          <h3>Academic Research History</h3>
+          <ul class="cv-list">
+            <li>
+              <strong>Doctor of Philosophy (2007 - 2012):</strong> Kurukshetra University.<br>
+              <em>Thesis:</em> "Synthesis of Some Heterocyclic Compounds and Application of Hydroxynitrile Lyase in Stereoselective Synthesis of Cyanohydrins."<br>
+              <em>Supervisors:</em> Dr. Om Parkash Arora (Prof. Emeritus) & Dr. Jitender Kumar Sharma (Chairperson, Dept. of Bio-Technology).
+            </li>
+            <li>
+              <strong>Master of Philosophy (2006 - 2007):</strong> Annamalai University.<br>
+              <em>Thesis:</em> "Synthesis of 3-Hydroxy-2-[1-(4-Bromophenyl)-3-Phenyl-4-Pyrazolyl]chromone and its application."<br>
+              <em>Supervisor:</em> Dr. Rameshwar Dass (Dept. of Industrial Chemistry, Khalsa College).
+            </li>
+          </ul>
+        </div>
+
+        <div class="cv-subsection">
+          <h3>Core Research Interest</h3>
+          <p class="cv-text">
+            Hypervalent iodine reagents mediated methodology to synthesize organic compounds of medicinal and pharmaceutical interest.
+          </p>
+        </div>
+
+        <div class="cv-subsection">
+          <h3>Ongoing Research Projects</h3>
+          <ul class="cv-list">
+            <li>
+              <strong>Project 1:</strong> "Synthesis of some chromone containing fused heterocycles as monoamine oxidase inhibitors-B." (Ongoing)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- PROFESSIONAL TEACHING EXPERIENCE -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Teaching & Academic Experience</h2>
+        <ul class="cv-timeline-list">
+          <li>
+            <span class="cv-time">Jun 2023 - Present</span>
+            <div class="cv-details">
+              <strong>Assistant Professor</strong> — Department of Chemistry, Chaudhary Ranbir Singh University, Jind (on deputation basis).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Nov 2018 - Jun 2023</span>
+            <div class="cv-details">
+              <strong>Assistant Professor</strong> — Department of Chemistry, Chaudhary Bansi Lal University, Bhiwani (regular basis).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Jul 2018 - Nov 2018</span>
+            <div class="cv-details">
+              <strong>Assistant Professor</strong> — Govt College Faridabad, Ambala Cantt, Cheeka (regular basis).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Aug 2016 - Jul 2018</span>
+            <div class="cv-details">
+              <strong>Assistant Professor</strong> — Govt College Bherian (on extension basis).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Jan 2014 - Aug 2016</span>
+            <div class="cv-details">
+              <strong>Assistant Professor</strong> — Isharjyot Degree College for Women, Pehowa (on extension basis).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">2007 - 2010</span>
+            <div class="cv-details">
+              <strong>Teaching Associate</strong> — University College, Kurukshetra University, Kurukshetra (sessions: 01-08-2007 to 23-11-2007, 22-08-2008 to 28-05-2009, and 21-07-2009 to 30-04-2010).
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Jul 2006 - Apr 2007</span>
+            <div class="cv-details">
+              <strong>Part-Time Lecturer</strong> — MLN College, Yamuna Nagar.
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Jul 2004 - Feb 2005</span>
+            <div class="cv-details">
+              <strong>Lecturer</strong> — R.K.S.D College, Kaithal.
+            </div>
+          </li>
+          <li>
+            <span class="cv-time">Aug 2003 - Mar 2004</span>
+            <div class="cv-details">
+              <strong>Part-Time Lecturer</strong> — University College, Kurukshetra University, Kurukshetra.
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- ADMINISTRATIVE CHARGES & LEADERSHIP -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Administrative Charges & Key Positions</h2>
+        <ul class="cv-list">
+          <li><strong>Chairman</strong>, Department of Chemistry, Chaudhary Ranbir Singh University, Jind (from 10-06-2023 to till date).</li>
+          <li><strong>Controller of Examinations</strong> (Additional Charge), Chaudhary Bansi Lal University, Bhiwani (from 01-12-2021 to 05-04-2023).</li>
+          <li><strong>Deputy Controller of Examinations</strong> (Secrecy Branch), Chaudhary Bansi Lal University, Bhiwani (from 30-03-2019 to 09-06-2023).</li>
+          <li><strong>Vice Chancellor Nominee</strong>, Selection process of education colleges affiliated to CBLU Bhiwani.</li>
+          <li><strong>Co-ordinator</strong>, Spot Evaluation Centre for UG/PG examinations evaluation.</li>
+          <li><strong>Member</strong>, Postgraduate Board of Studies in Chemistry, CBLU Bhiwani.</li>
+          <li><strong>Subject Expert</strong>, Technical analysis of student inquiries regarding chemistry question papers at UG/PG levels.</li>
+          <li><strong>Member</strong>, Department Purchase Committee & Central Purchase Sub-Committees, CBLU Bhiwani.</li>
+          <li><strong>Member</strong>, Advisory Committee for Aryabhata Incubation Center (AIC), CBLU Bhiwani.</li>
+          <li><strong>Laboratory In-Charge & Curriculum Developer</strong> (2014 - 2018), Isharjyot College and Govt College Bherian.</li>
+          <li><strong>Convener of Admission</strong> for B.Sc. students (Govt College Bherian).</li>
+        </ul>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- BOOK PUBLICATIONS -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Book Publications</h2>
+        <p class="cv-subsection-desc">Published 6 textbooks in national publications for undergraduate studies:</p>
+        <ol class="cv-numbered-list cv-monographs">
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. First Year (1st Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 0978-81-8335-090-9</span>
+          </li>
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. Second Year (3rd Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 0978-81-8335-091-7</span>
+          </li>
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. Third Year (5th Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 0978-81-8335-092-5</span>
+          </li>
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. First Year (2nd Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 978-93-85863-16-5</span>
+          </li>
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. Second Year (4th Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 978-93-85863-20-2</span>
+          </li>
+          <li>
+            <span class="cv-book-author">Wadhwa, D.</span> <span class="cv-book-title">Text Book of Inorganic Chemistry B.Sc. Third Year (6th Semester)</span>. <span class="cv-book-publisher">Jyoti Book Depot Pvt. Ltd</span>, <span class="cv-book-year">2015-2016</span>. <span class="cv-isbn">ISBN: 978-93-85863-21-9</span>
+          </li>
+        </ol>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- RESEARCH PUBLICATIONS -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Research Publications</h2>
+        <p class="cv-subsection-desc">Selected peer-reviewed articles published in international journals:</p>
+        
+        <ol class="cv-numbered-list">
+          <li>
+            Ravi Kumar, <strong>Deepak Wadhwa</strong>, Om Prakash. "Beckmann rearrangement of 2-hydroxy-5-methyl acetophenone oxime using vilsmeier-heck reagent (POCl3/DMF): Synthesis of some new heterocycles", <em>Heterocyclic Communications</em>, 2011, 16[2191-0197], 201-205.
+          </li>
+          <li>
+            Om Prakash, Deepak Kumar Aneja, <strong>Deepak Wadhwa</strong>, Ravi Kumar and Sanjiv Arora. "A facile synthesis of novel dihydroindeno[1,2-e][1,2,4] triazolo[3,4-b] [1,3,4 ]thiadiazines using HTIB", <em>Journal of Heterocyclic Chemistry</em>, 2012, 49[1943-5193], 566–570.
+          </li>
+          <li>
+            Om Prakash, Khalid Hussain, Ravi Kumar, <strong>Deepak Wadhwa</strong>, Chetan Sharma, Kamal R. Aneja. "Synthesis and antimicrobial evaluation of new 1,4-dihydro-4-pyrazolyl pyridines and 4-pyrazolylpyridines", <em>Organic and Medicinal Chemistry Letters</em>, 2011, 1[2191-2858], 5.
+          </li>
+          <li>
+            Raj Kamal, Deepak Sharma, <strong>Deepak Wadhwa</strong>, and Om Prakash. "Chemistry of &alpha;,&beta;-ditosyloxyketones: a new and convenient route for the synthesis of 4,5-diarylisoxazoles from &alpha;,&beta;-chalconeditosylate", <em>Synlett</em>, 2012, 23[0936-5214], 93-96.
+          </li>
+          <li>
+            Om Prakash, <strong>Deepak Wadhwa</strong>, Khalid Hussain and Ravi Kumar. "[Hydroxy(tosyloxy)iodo]benzene in organic synthesis: A facile synthesis of furo[3,2-c]coumarins using &alpha;-tosyloxyketones", <em>Synthetic Communications</em>, 2012, 42[0039-7911], 2947-2951.
+          </li>
+          <li>
+            Ravi Kumar, <strong>Deepak Wadhwa</strong>, Khalid Hussain, Om Prakash. "One pot multicomponent diastereoselective synthesis of trans-2,3-dihydrofuro[3,2-c]coumarins via in situ-generated &alpha;-tosyloxyketones", <em>Synthetic Communications</em>, 2013, 43[0039-7911], 1802-1807.
+          </li>
+          <li>
+            Pragi Arora, Varun Arora, H.S. Lamba and <strong>Deepak Wadhwa</strong>. "Importance of heterocyclic chemistry: a review", <em>International Journal of Pharmaceutical Sciences and Research</em>, 2012, 3[0975-8232], 1000-1006.
+          </li>
+          <li>
+            Khalid Hussain, <strong>Deepak Wadhwa</strong>. "Highly efficient, one pot synthesis and oxidation of Hantsch 1,4-dihydropyridines mediated by Iodobenzenediacetate(III) using conventional heating, ultrasonic and microwave irradiation", <em>International Journal of Organic Chemistry</em>, 2014, 4[2161-4687], 174-181.
+          </li>
+          <li>
+            <strong>Deepak Wadhwa</strong>, Varun Arora, Khalid Hussain and Pragi Arora. "&alpha;-Tosyloxyacetophenones: As a precursor in ultrasonic assisted multicomponent, diastereoselective synthesis of trans-2,3-dihydrofuro[3,2-c]coumarins using [BMIm]OH and their antimicrobial evaluation", <em>Journal of Chemical and Pharmaceutical Research</em>, 2014, 6[0975-7384], 655-661.
+          </li>
+          <li>
+            Varun Arora, Pragi Arora, <strong>Deepak Wadhwa</strong> and H. S. Lamba. "Pharmacognostic standardization of medicinally important Convolvulus microphyllus (stem)", <em>Journal of Chemical and Pharmaceutical Research</em>, 2015, 7[0975-7384], 607-611.
+          </li>
+          <li>
+            Neera Raghav, Suman Jangraa, Ajay Kumar, Shalmoli Bhattacharyya, <strong>Deepak Wadhwa</strong> and Jayant Sindhu. "Cathepsin B, H and L inhibitors as cell proliferating agents: Design, synthesis, computational and pharmacological studies of some novel 2-(2-naphthoyl)-6, 6-dimethyl-3-aryl-2, 3, 6, 7-tetrahydrobenzofuran-4 (5 H)-ones", <em>RSC Advances</em>, 2016, 6, 34588-34599.
+          </li>
+          <li>
+            <strong>Deepak Wadhwa</strong>, Varun Arora, Loveena Arora, Pragi Arora, and Om Parkash. "Synthesis of naphthalene functionalized trans-2,3-dihydrofuro[3,2-c]coumarins as antioxidant and anthelmintic agents", <em>Journal of Heterocyclic Chemistry</em>, 2015, 53[1943-5193].
+          </li>
+          <li>
+            Gulshan Kumar, Aakash Deep, Sanjiv Kumar, Rimmy Nandal, Ishwar Singh, Meenakshi Kaushik, Hoti S.L., Rakesh Kumar Marwaha, Arun Kumar Sharma and <strong>Deepak Wadhwa</strong>. "Phytochemical Screening, Antimalarial, Antioxidant, Anti-inflammatory, and Antimicrobial Potential of Ananas Comosus extract", <em>Anti-Infective Agents</em>, 2020, 18, 000-000.
+          </li>
+          <li>
+            Aakash Deep, Priya, Om Narayan Upadhyay, Sanjiv Kumar, Harish Kumar, Nitin Bansal, Arun Kumar Sharma, <strong>Deepak Wadhwa</strong> and Surender Kumar. "Phytochemical Screening and biological potentials of Musa &times; paradisiaca L. leaves extract as anticancer and antioxidant agents", <em>Asia Pacific Journal of Pharmacotherapy and Toxicology</em>, 2021. (Accepted)
+          </li>
+          <li>
+            Devi S, Jyoti, Kiran, <strong>Wadhwa D.</strong> and Sindhu J. "Electro-Organic Synthesis: An environment benign alternative for heterocyclic synthesis", <em>Organic & Biomolecular Chemistry</em>, 2022, 20, 5163-5229.
+          </li>
+        </ol>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- CONFERENCE PAPERS & PRESENTATIONS -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Papers Presented in Conferences</h2>
+        <p class="cv-subsection-desc">Presented papers in 08 International and 09 National Conferences, including:</p>
+        <ul class="cv-list">
+          <li><strong>8th National Conference</strong> on Science & Technology for Nation Development: Opportunities & Global Challenges (Feb 28, 2023).</li>
+          <li><strong>Session Chairperson</strong> — Two-day International Conference on "New Trends in Chemical Research" (April 29-30, 2022) at SUS College Matak Majri, Karnal.</li>
+          <li><strong>International Conference</strong> on "Recent trends in science, technology, management & Humanities" (March 29, 2022). Paper: <em>"Multicomponent Synthesis of Chromone containing fused Heterocycles"</em>.</li>
+          <li><strong>Two-day International Conference</strong> on Advances in Science and technology in 21st century (Feb 26-27, 2022). Paper: <em>"Socioeconomic consequences of OTC, unused and expired medications - A review"</em>.</li>
+          <li><strong>7th National Conference</strong> on Innovations in science, Engineering & technology (Feb 19, 2022). Paper: <em>"Role of Statistical design in the Scientific Process"</em>.</li>
+          <li><strong>International Conference</strong> on Mathematical Modeling in Physical Sciences, Social Sciences and Technology (Dec 17-18, 2021). Paper: <em>"Synthesis of biologically active tetra-substituted pyrazole compounds"</em>.</li>
+          <li><strong>International Conference</strong> on Technological Transformation and Preparedness in the Post COVID World (March 22-23, 2021). Paper: <em>"Asymmetric stereoselective synthesis of cyanohydrins by enzymatic catalysis"</em>.</li>
+          <li><strong>Golden Jubilee International Conference</strong> on New Millennia Agriculture Novel Trends & Future Scenario held at CCS HAU, Hisar (Nov 6-8, 2019). Poster presentation.</li>
+        </ul>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- INVITED EXTENSION LECTURES -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Invited Extension Lectures Delivered</h2>
+        <ol class="cv-numbered-list">
+          <li>"Stereochemistry" at Pt. J.L.N. Govt. College Faridabad (28-01-2020).</li>
+          <li>"Concerted reactions" at BLJS College Tosham (07-09-2019).</li>
+          <li>"Stereochemistry" (Two sessions) at Govt. College for Girls, Gurugram (04-03-2020).</li>
+          <li>"Scope after Graduation and Job Placement" at Govt College for Girls Cheeka, Kaithal (24-02-2020).</li>
+          <li>"Heterocyclic chemistry" at BLJS College Tosham (29-03-2019).</li>
+          <li>"Pericyclic Reactions" at BLJS College Tosham (17-03-2021).</li>
+          <li>"Heterocyclic Chemistry and Disconnection approach" at BLJS College Tosham (14-06-2021).</li>
+          <li>"Advanced Spectroscopy & Synthesis Topics" at Sharda Mahila Mahavidyalaya, Singhani, Bhiwani (19-05-2022).</li>
+          <li>"Challenges of examinations under COVID-19" at Ch. Bansilal Govt. College Loharu (24-05-2022).</li>
+        </ol>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- ACHIEVEMENTS, FELLOWSHIPS & SPORTS -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Achievements, Fellowships & Sports</h2>
+        <ul class="cv-list">
+          <li><strong>Junior Research Fellowship (JRF)</strong> in a major research project during Ph.D (2007 - 2008).</li>
+          <li><strong>National Eligibility Test (NET-LS)</strong> qualified twice in Chemical Sciences, conducted by CSIR-UGC, New Delhi (2005 & 2007).</li>
+          <li><strong>State Level 1st Position</strong> in Cycling tournament.</li>
+          <li><strong>State Level Participation</strong> representing in Basketball tournament.</li>
+          <li><strong>University Level 3rd Position</strong> representing in Cricket tournament.</li>
+        </ul>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- ACADEMIC REFERENCES -->
+      <section class="cv-section">
+        <h2 class="cv-section-title">Academic References</h2>
+        <div class="cv-references-grid">
+          <div class="cv-reference-card">
+            <strong>Dr. Om Prakash</strong><br>
+            Professor (Retd.), Department of Chemistry<br>
+            Kurukshetra University, Kurukshetra, Haryana - 136119<br>
+            Email: <a href="mailto:dromprakash50@rediffmail.com">dromprakash50@rediffmail.com</a>
+          </div>
+          <div class="cv-reference-card">
+            <strong>Dr. Jitender Kumar Sharma</strong><br>
+            Professor & Chairperson, Department of Bio-Technology<br>
+            Kurukshetra University, Kurukshetra, Haryana - 136119<br>
+            Email: <a href="mailto:jksharmakuk@rediffmail.com">jksharmakuk@rediffmail.com</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="cv-divider">
+
+      <!-- FOOTER -->
+      <footer class="cv-footer">
+        <p>© 2026 Dr. Deepak Wadhwa. All professional and research credentials verified against official Chaudhary Ranbir Singh University database records.</p>
+      </footer>
+
+    </article>
+  </main>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="flowfield.js"></script>
+</body>
+</html>
